@@ -16,7 +16,7 @@ import TypingText from './TypingText.js';
 function App() {
   return (
     <div className="App">
-      <Router basename='/reacteastv2/'>
+      <Router basename='/reactestv2/'>
         <header className="App-header">
 	  <div className="App-brand">
 	    <Link to="/">
