@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js';
-import './TypingText.js';
+import './TypingText.css';
 
 const texts = [
   "Lorem",
@@ -22,7 +22,8 @@ class TypingText extends React.Component {
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
-      backDelay: 4000
+      backDelay: 4000,
+      showCursor: false
     }
 
     this.typed = new Typed(this.el, options);
