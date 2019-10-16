@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 import './App.css';
 
@@ -16,7 +16,7 @@ import TypingText from './TypingText.js';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/reacteastv2'>
         <header className="App-header">
 	  <div className="App-brand">
 	    <Link to="/">
