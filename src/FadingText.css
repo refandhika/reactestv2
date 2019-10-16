@@ -1,0 +1,12 @@
+.FadingText .Part {
+  background-color: #ddd;
+  padding: 5px 10px;
+}
+
+.Part>.Part-inner {
+  transition: 0.5s;
+}
+
+.Part>.Part-inner.faded {
+  opacity: 0;
+}

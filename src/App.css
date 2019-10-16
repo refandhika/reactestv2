@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -12,10 +13,49 @@
   width: 100%;
   color: white;
   padding: 0 5px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.App-brand {
+  width: auto;
 }
 
 .App-link {
   color: #09d3ac;
 }
 
+.App-content {
+  width: 100%;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.App-side {
+  width: 25%;
+  background-color: #3b7694;
+}
+
+.App-nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+.App-nav>.App-link {
+  width: calc(100% - 40px);
+  padding: 15px 20px;
+}
+
+.App-nav>.App-link:hover {
+  background-color: #18465e;
+}
+
+.App-main {
+  width: calc(75% - 40px);
+  min-height: calc(100vh - 45px);
+  margin: 20px;
+}
 
