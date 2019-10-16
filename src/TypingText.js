@@ -13,7 +13,6 @@ const texts = [
 class TypingText extends React.Component {
   constructor(props) {
     super(props);
-    
     }
 
   componentDidMount() {
@@ -36,7 +35,11 @@ class TypingText extends React.Component {
   render() {
     return (
       <div className="TypingText">
-        <p>This <span className="Part"><span className="Part-inner" ref={(el)=>{this.el=el;}}></span></span> will changing every 4 seconds.</p>
+	<h2>Typing Text</h2>
+	<p>Below is an example of changing text with typing animation using library <strong>Typed.js</strong>. Useful for re-typing a word. Or a part of sentences.</p>
+	<div className="Example">
+          <p>This <span className="Part"><span className="Part-inner" ref={(el)=>{this.el=el;}}></span></span> will changing every 4 seconds.</p>
+	</div>
       </div>
     );
   }

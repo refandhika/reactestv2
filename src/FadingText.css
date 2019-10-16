@@ -1,5 +1,5 @@
 .FadingText .Part {
-  background-color: #ddd;
+  background-color: #ccc;
   padding: 5px 10px;
 }
 
@@ -9,4 +9,11 @@
 
 .Part>.Part-inner.faded {
   opacity: 0;
+}
+
+.FadingText .Example {
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  border-left: 5px solid #222;
+  background-color: #eee;
 }

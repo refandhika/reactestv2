@@ -67,7 +67,11 @@ class FadingText extends React.Component {
 
     return (
       <div className="FadingText">
-        <p>This <span className="Part"><span className={classChange}>{texts[index]}</span></span> will changing every 4 seconds.</p>
+	<h2>Fading Text</h2>
+	<p>Below is an example of changing text with fading animation. Useful for fade changing a word. Or even a sentences.</p>
+        <div className="Example">
+	  <p>This <span className="Part"><span className={classChange}>{texts[index]}</span></span> will changing every 4 seconds.</p>
+	</div>
       </div>
     );
   }

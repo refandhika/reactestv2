@@ -10,8 +10,8 @@ import './App.css';
 import logo from './logo.svg';
 
 import Home from './Home.js';
-import FadingText from './FadingText.js';
-import TypingText from './TypingText.js';
+import ChangingText from './ChangingText.js';
+import MultiSection from './MultiSection.js';
 
 function App() {
   return (
@@ -28,7 +28,8 @@ function App() {
 	  <aside className="App-side">
 	    <nav className="App-nav">
 	       <Link to="/" className="App-link">Home</Link>
-	       <Link to="/changingtext" className="App-link">Changing Text</Link>
+	       <Link to="/changing-text" className="App-link">Changing Text</Link>
+	       <Link to="/multi-section" className="App-link">Multi Section</Link>
 	    </nav>
 	  </aside>
 	  <main className="App-main">
@@ -36,9 +37,11 @@ function App() {
 	      <Route exact path="/">
 	        <Home />
 	      </Route>
-	      <Route path="/changingtext">
-	        <FadingText />
-	        <TypingText />
+	      <Route path="/changing-text">
+	        <ChangingText />
+	      </Route>
+	      <Route path="/multi-section">
+	        <MultiSection />
 	      </Route>
 	    </Switch>
 	  </main>

@@ -56,6 +56,6 @@
 .App-main {
   width: calc(75% - 40px);
   min-height: calc(100vh - 45px);
-  margin: 20px;
+  margin: 0 20px;
 }
 
