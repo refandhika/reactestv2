@@ -5,7 +5,7 @@ import TypingText from './TypingText.js';
 
 function ChangingText() {
   return (
-    <div className="Home">
+    <div className="ChangingText">
       <h1>Changing Text</h1>
       <FadingText />
       <TypingText />

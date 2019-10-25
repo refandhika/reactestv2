@@ -1,0 +1,16 @@
+.FAButton {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #222222;
+  background-color: #222222;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 25px;
+}
+
+.FAButton:hover {
+  background-color: #444444;
+}

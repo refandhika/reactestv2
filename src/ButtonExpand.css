@@ -1,0 +1,35 @@
+.ButtonExpand-items {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.ButtonExpand-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.ButtonExpand-item:hover {
+  background-color: #444;
+}
+
+.ButtonExpand-item.on {
+  transition: .5s;
+  background-color: #444;
+}
+
+.ButtonExpand-det {
+  margin: 0 5px;
+  background-color: #444;
+  transition: .5s;
+  height: 0;
+}
+
+.ButtonExpand-det.open {
+  height: 300px;
+}
